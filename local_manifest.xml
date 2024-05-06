@@ -3,6 +3,7 @@
 
 <!-- Apps -->
 <project path="packages/apps/GrapheneCam" name="MI439-CLO/android_packages_apps_GrapheneCam" remote="github" revision="topaz" clone-depth="1" />
+<project path="packages/apps/ParanoidSense" name="DerpFest-AOSP/packages_apps_ParanoidSense" remote="github" revision="14" clone-depth="1" />
 
 <!-- Kernel -->
 <project path="kernel/xiaomi/sdm439" name="Jprimero15/android_kernel_xiaomi_sdm439-4.19" remote="github" clone-depth="1" revision="udc" />
