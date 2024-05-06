@@ -3,6 +3,7 @@
 
 <!-- Apps -->
 <project path="packages/apps/GrapheneCam" name="MI439-CLO/android_packages_apps_GrapheneCam" remote="github" revision="topaz" clone-depth="1" />
+<remove-project name="packages_apps_ParanoidSense" />
 <project path="packages/apps/ParanoidSense" name="DerpFest-AOSP/packages_apps_ParanoidSense" remote="github" revision="14" clone-depth="1" />
 
 <!-- Kernel -->
