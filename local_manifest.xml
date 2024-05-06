@@ -22,10 +22,11 @@
 <project path="vendor/xiaomi/mi439" name="LOLZKERNEL/proprietary_vendor_xiaomi_mi439-4.19" remote="github" clone-depth="1" revision="udc" />
 
 <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" clone-depth="1" revision="uvite" />
-<remove-project name="packages_apps_ParanoidSense" />
-<project path="packages/apps/ParanoidSense" name="DerpFest-AOSP/packages_apps_ParanoidSense" remote="github" revision="14" clone-depth="1" />
 
 <!-- Vendor Opensource -->
 <project path="vendor/qcom/opensource/core-utils" name="MI439-CLO/android_vendor_qcom-opensource_core-utils" remote="github" revision="uvite" />
-
+<!--ParanoidSense-->
+<remove-project name="packages_apps_ParanoidSense" />
+<project path="packages/apps/ParanoidSense" name="DerpFest-AOSP/packages_apps_ParanoidSense" remote="github" revision="14" clone-depth="1" />
+   
 </manifest>
