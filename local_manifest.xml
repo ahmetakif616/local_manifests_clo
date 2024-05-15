@@ -27,6 +27,8 @@
 <project path="vendor/qcom/opensource/core-utils" name="MI439-CLO/android_vendor_qcom-opensource_core-utils" remote="github" revision="uvite" />
 
 <remove-project name="vendor_derp" />
-<project path="vendor/derp" name="PhantomEnigma/vendor_derp" remote="github" revision="14" />
+<project path="vendor/derp" name="PhantomEnigma/vendor_derp" remote="github" revision="14">
+   <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
+</project>
    
 </manifest>
