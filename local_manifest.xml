@@ -42,5 +42,5 @@
 <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="matrixx"  />
 <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="matrixx"  />
 <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" remote="github" />
-           
+<project path="vendor/derp/signing/keys" name="PhantomEnigma/build_keys" remote="github"  />
 </manifest>
