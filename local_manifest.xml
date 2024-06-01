@@ -25,8 +25,5 @@
 
 <!-- Vendor Opensource -->
 <project path="vendor/qcom/opensource/core-utils" name="MI439-CLO/android_vendor_qcom-opensource_core-utils" remote="github" revision="uvite" />
-
-<remove-project name="DerpFest/vendor_gms" />
-<project path="vendor/gms" name="PhantomEnigma/vendor_gms" remote="gitlab" revision="14" />
    
 </manifest>
