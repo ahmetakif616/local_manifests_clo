@@ -26,15 +26,15 @@
 <!-- Vendor Opensource -->
 <project path="vendor/qcom/opensource/core-utils" name="MI439-CLO/android_vendor_qcom-opensource_core-utils" remote="github" revision="uvite" />
 
-<!--Vanilla Apps-->
-<!--remove apps-->
+
+<!--remove apps
 <remove-project name="platform/packages/apps/Dialer" />
 <remove-project name="platform/packages/apps/Contacts" />
 <remove-project name="platform/packages/apps/Messaging" />
-<remove-project name="platform/packages/apps/DeskClock" />
-<!--add apps-->
+<remove-project name="platform/packages/apps/DeskClock" />-->
+<!--add apps
 <project path="packages/apps/Dialer" name="ProjectMatrixx/android_packages_apps_Dialer" remote="github" />
 <project path="packages/apps/Contacts" name="ProjectMatrixx/android_packages_apps_Contacts" remote="github" />
 <project path="packages/apps/Messaging" name="ProjectMatrixx/android_packages_apps_Messaging" remote="github" />
-<project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" remote="github" />
+<project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" remote="github" />-->
 </manifest>
