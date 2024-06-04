@@ -37,4 +37,6 @@
 <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" groups="pdk-fs" remote="github" revision="14.0" />
 <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" groups="pdk-fs" remote="github" revision="14.0" />
 <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="lineage-21.0" />
+<!--keys-->
+<project path="vendor/derp/signing/keys" name="PhantomEnigma/build_keys" remote="github" revision="keys" />
 </manifest>
