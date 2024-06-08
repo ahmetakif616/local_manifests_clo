@@ -35,13 +35,11 @@
 <remove-project name="platform/external/chromium-webview" />
 
 <!--add apps-->
-<project path="vendor/lineage/compat" name="LeafOS-Project/android_vendor_lineage_compat" remote="github" revision="leaf-3.2" />
+<project path="vendor/lineage" name="PhantomEnigma/lineageos_lib_phone" remote="github" revision="main" />
 <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="14.0" />
 <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" groups="pdk-fs" remote="github" revision="14.0" />
 <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" groups="pdk-fs" remote="github" revision="14.0" />
 <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="lineage-21.0" />
-<!--keys 
-<project path="vendor/derp/signing/keys" name="PhantomEnigma/build_keys" remote="github" revision="keys" />-->
 
 <!--webview -->
 
