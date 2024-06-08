@@ -33,7 +33,6 @@
 <remove-project name="platform/packages/apps/Messaging" />
 <remove-project name="platform/packages/apps/DeskClock" />
 <remove-project name="platform/external/chromium-webview" />
-<remove-project name="platform/packages/apps/DocumentsUI" />
 
 <!--add apps-->
 <project path="vendor/lineage" name="PhantomEnigma/lineageos_lib_phone" remote="github" revision="main" />
@@ -41,7 +40,6 @@
 <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" groups="pdk-fs" remote="github" revision="14.0" />
 <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" groups="pdk-fs" remote="github" revision="14.0" />
 <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="lineage-21.0" />
-<project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-21.0" />
 
 <!--webview -->
   <project path="external/chromium-webview/patches" name="LineageOS/android_external_chromium-webview_patches" groups="pdk" revision="main" remote="github" >
