@@ -25,5 +25,8 @@
 
 <!-- Vendor Opensource -->
 <project path="vendor/qcom/opensource/core-utils" name="MI439-CLO/android_vendor_qcom-opensource_core-utils" remote="github" revision="uvite" />
-
+   
+<!--org.lineageos.settings.resources-->
+<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-21.0" />
+   
 </manifest>
