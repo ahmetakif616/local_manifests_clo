@@ -26,7 +26,11 @@
 <!-- Vendor Opensource -->
 <project path="vendor/qcom/opensource/core-utils" name="MI439-CLO/android_vendor_qcom-opensource_core-utils" remote="github" revision="uvite" />
    
-<!--org.lineageos.settings.resources-->
+<!-- org.lineageos.settings.resources -->
 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-21.0" />
    
+<!-- Datura -->
+<project path="prebuilts/calyx/datura" name="DerpFest-AOSP/prebuilts_calyx_datura" remote="github" clone-depth="1" revision="14" />
+<project path="external/calyx/datura" name="DerpFest-AOSP/external_calyx_datura" groups="pdk" remote="github" revision="14" />
+
 </manifest>
