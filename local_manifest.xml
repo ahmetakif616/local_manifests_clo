@@ -26,4 +26,7 @@
 <!-- Vendor Opensource -->
 <project path="vendor/qcom/opensource/core-utils" name="MI439-CLO/android_vendor_qcom-opensource_core-utils" remote="github" revision="uvite" />
 
+<!-- Derp prebuilts -->
+<project path="prebuilts/derp" name="Phantm7/prebuilts_derp" remote="github" revision="14" />
+
 </manifest>
