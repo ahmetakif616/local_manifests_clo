@@ -14,7 +14,7 @@
 <project path="hardware/qcom-caf/gps-legacy" name="MI439-CLO/android_hardware_qcom_gps" remote="github" revision="uvite-legacy-component" />
    
 <!-- Device -->
-<project path="device/xiaomi/mi439" name="PntmX/device_xiaomi_mi439" remote="github" revision="udc-2-derp" />
+<project path="device/xiaomi/mi439" name="Gtajisan/device_xiaomi_mi439" remote="github" revision="udc-2-derp" />
 
 <project path="device/qcom/common" name="MI439-CLO/device_qcom_common" remote="github" revision="udc-2" />
 
@@ -35,7 +35,7 @@
 <remove-project name="platform/external/chromium-webview" />
 
 <!--add apps-->
-<project path="vendor/lineage" name="PntmX/lineageos_lib_phone" remote="github" revision="main" />
+<project path="vendor/lineage" name="Gtajisan/lineageos_lib_phone" remote="github" revision="main" />
 <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="14.0" />
 <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" groups="pdk-fs" remote="github" revision="14.0" />
 <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" groups="pdk-fs" remote="github" revision="14.0" />
